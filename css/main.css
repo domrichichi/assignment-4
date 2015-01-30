@@ -10,12 +10,20 @@ header {
 h1 {
 	background-color: gray;
 	font-weight: normal;
-	font-size: 3rem;
+	font-size: 4rem;
 	font-style: normal;
 	text-decoration: underline;
 	font-family: "Bowlby One Sc";
-	line-height: 1;
-	padding: 0.5em 1em 1em 4em;
+	line-height: none;
+	padding: 0.5em 0.5em 0.5em 3em;
+	display:inline-block;
+}
+
+nav a {
+	text-decoration: none;
+	margin:0.5em;
+	font-family: "Bitter";
+
 }
 
 ol {
@@ -40,7 +48,6 @@ h3 {
 	font-style: normal;
 	text-decoration: none;
 	font-family: "Bowlby One Sc";
-
 }
 
 li a {
@@ -52,6 +59,7 @@ header li {
 	display: inline-block;
 	background-color: black;
 	padding: 0.5em 0.5em 0.5em 0.5em;
+	border-radius: 6px;
 }
 
 a {
