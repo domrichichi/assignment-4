@@ -1,0 +1,93 @@
+html {
+	background-color: #cccccc;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 3rem;
+	font-style: normal;
+	text-decoration: underline;
+	font-family: "Bowlby One Sc";
+	line-height: 1;
+	padding: 1em 1em 1em 2em;
+}
+
+h2 {
+
+	font-weight: normal;
+	font-size: 2rem;
+	font-style: normal;
+	text-decoration: underline;
+	font-family: "Bowlby One Sc";
+	line-height: 1;
+	padding: 0.2em 1em 1em 1em;
+}
+
+h3 {
+	font-weight: normal;
+	font-size: 1.5rem;
+	font-style: normal;
+	text-decoration: none;
+	font-family: "Bowlby One Sc";
+
+}
+
+a {
+	color: red;
+	font-size: 1rem;
+}
+
+a:hover	{
+	color: white;
+}
+
+p {
+	font-family: "Bitter";
+}
+
+b {
+	Color: grey;
+}
+
+ol{
+	list-style: none;
+	padding: 0;
+}
+
+ul {
+	list-style-type: square;
+	font-family: "Bitter";
+}
+
+figcaption {
+	font-family: "Bitter";
+	font-style: italic;
+	font-size: 0.8rem;
+}
+
+blockquote {
+text-align: center;
+font-size:1.5rem;
+font-family: "Bitter";
+}
+
+.neil {
+	text-align: right;
+	font-style: italic;
+}
+
+dl {
+	font-family: "Bitter";
+}
+
+.term {
+	font-weight: bold;
+}
+
+figure {
+	display: inline-block;
+	padding: 1em 2em 0.5em 3em;
+	border-radius: 10px;
+	border:5px;
+	margin:0;
+}
