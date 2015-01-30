@@ -2,6 +2,10 @@ html {
 	background-color: #cccccc;
 }
 
+header {
+	background-color: gray;
+}
+
 h1 {
 	background-color: gray;
 	font-weight: normal;
@@ -10,12 +14,13 @@ h1 {
 	text-decoration: underline;
 	font-family: "Bowlby One Sc";
 	line-height: 1;
-	padding: 1em 1em 1em 3em;
+	padding: 0.5em 1em 1em 4em;
 }
 
 ol {
 	background-color: gray;
 	display: block;
+	padding: 1em 1em 1em 1em;
 }
 
 h2 {
@@ -38,13 +43,25 @@ h3 {
 
 }
 
+li a {
+	padding:1em 1em 1em 1em;
+}
+
+header li {
+	margin: 0.5em;
+	display: inline-block;
+	background-color: black;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
 a {
-	color: red;
+	color: white;
 	font-size: 1rem;
+
 }
 
 a:hover	{
-	color: white;
+	color: blue;
 }
 
 p {
@@ -96,4 +113,14 @@ figure {
 	border-radius: 10px;
 	border:3px solid black;
 	margin:0;
+}
+
+footer {
+	background-color: gray;
+	list-style-type:square;
+}
+
+footer h2 {
+	margin:3
+	padding;
 }
